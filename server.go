@@ -13,7 +13,7 @@ import (
 
 const (
 	srvSocket   = "localhost:1234"                 //Server socket
-	srvProtocol = "tcp4"                           //Connection srvProtocol
+	srvProtocol = "tcp4"                           //Server protocol
 	urlProverb  = "https://go-proverbs.github.io/" //Source of Go proverbs
 )
 
