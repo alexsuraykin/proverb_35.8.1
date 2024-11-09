@@ -84,7 +84,7 @@ func handleConn(conn net.Conn, proverb *[]Proverb) {
 }
 
 func getRandomProverb(ar []Proverb) Proverb {
-	rand.Seed(time.Now().UnixNano())
+	rand.NewSource(time.Now().UnixNano())
 	return ar[rand.Intn(len(ar))]
 }
 
